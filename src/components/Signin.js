@@ -8,7 +8,7 @@ function Signin() {
   const user = useContext(myContext);
   console.log(user);
   return (
-    <div>
+    <div id="main">
       <div id="current-user">
         {userV
           ? `Current user:${user}, isAuthenticated: Yes`
